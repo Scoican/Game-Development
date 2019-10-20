@@ -5,14 +5,12 @@ using UnityEngine.UI;
 
 public class EndGame : MonoBehaviour
 {
-    public Text endGameText;
-
+    public GameMaster master;
     void OnCollisionEnter2D(Collision2D col)
     {
         if (col.gameObject.name == "Ball")
         {
-            endGameText.enabled = true;
-            Time.timeScale = 0;
+            master.EndGame();
         }
     }
 }
