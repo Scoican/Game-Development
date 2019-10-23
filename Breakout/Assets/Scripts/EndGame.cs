@@ -8,9 +8,13 @@ public class EndGame : MonoBehaviour
     public GameMaster master;
     void OnCollisionEnter2D(Collision2D col)
     {
-        if (col.gameObject.name == "Ball")
+        if (col.gameObject.tag == "Ball" && !col.gameObject.name.Contains("Clone"))
         {
             master.EndGame();
+        }
+        else
+        {
+            Destroy(col.gameObject);
         }
     }
 }
