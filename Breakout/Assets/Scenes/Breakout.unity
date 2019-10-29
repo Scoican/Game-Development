@@ -2849,23 +2849,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7c697d89f4b10dd4c9b65333b4ea0d8f, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &1010705260 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1238684886775632, guid: 118b70edca06d164482d543640fce41d,
-    type: 2}
-  m_PrefabInternal: {fileID: 1740210961}
---- !u!114 &1010705266
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1010705260}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8378ba39ff954974187a0c7dfda7bbea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ball: {fileID: 4393277454188408, guid: 118b70edca06d164482d543640fce41d, type: 2}
 --- !u!4 &1018337256 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4748740880567146, guid: 7c697d89f4b10dd4c9b65333b4ea0d8f,
@@ -4292,12 +4275,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
-    - target: {fileID: 114905069622287382, guid: 118b70edca06d164482d543640fce41d,
-        type: 2}
-      propertyPath: ballPrefab
-      value: 
-      objectReference: {fileID: 4393277454188408, guid: 118b70edca06d164482d543640fce41d,
-        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 118b70edca06d164482d543640fce41d, type: 2}
   m_IsPrefabParent: 0
