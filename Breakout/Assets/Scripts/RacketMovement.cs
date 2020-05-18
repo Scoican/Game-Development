@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class RacketMovement : MonoBehaviour {
 
@@ -8,10 +6,13 @@ public class RacketMovement : MonoBehaviour {
 	public float speed = 150f;
 
 	void FixedUpdate() {
-		//Get horizontal input
-		float horizontal= Input.GetAxisRaw("Horizontal");
+		if (!GameManager.instance.isGameFinished)
+		{
+			//Get horizontal input
+			float horizontal = Input.GetAxisRaw("Horizontal");
 
-		//Set velocity
-		GetComponent<Rigidbody2D>().velocity = Vector2.right * horizontal * speed;
+			//Set velocity
+			GetComponent<Rigidbody2D>().velocity = Vector2.right * horizontal * speed;
+		}		
 	}
 }

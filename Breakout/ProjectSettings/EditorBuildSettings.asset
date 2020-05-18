@@ -9,5 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Menu.unity
     guid: d5e1b09b54061c44a817c786c6afa7aa
   - enabled: 1
-    path: Assets/Scenes/Breakout.unity
-    guid: 747d692b445afd041a61925f5c4fd1fd
+    path: Assets/Scenes/BreakoutSinglePlayer.unity
+    guid: 96c493b7c4973fc408e08e6945416f36
+  - enabled: 1
+    path: Assets/Scenes/BreakoutMultiPlayer.unity
+    guid: 49d5e808d0f4d1f4a8e216bee5523552
+  m_configObjects: {}
